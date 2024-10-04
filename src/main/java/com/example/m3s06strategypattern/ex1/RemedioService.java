@@ -1,4 +1,4 @@
-package com.example.m3s06strategypattern.service;
+package com.example.m3s06strategypattern.ex1;
 
 import com.example.m3s06strategypattern.model.Estoque;
 import com.example.m3s06strategypattern.model.Remedio;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RemedioServiceEx1 {
+public class RemedioService {
 
     @Autowired
     private RemedioRepository remedioRepository;
